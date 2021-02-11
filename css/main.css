@@ -97,41 +97,79 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: black;
   height: 100%;
+  color: white;
 }
 
 body {
   font-family: 'sniglet', cursive;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1.5em;
   height: 100%;
 }
 
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+header {
+   font-size: 3em;
+   padding: 0 0 50px 0;
+}
+
+main {
+   padding: 0 0 40px 0;
+   border-bottom: 3px solid white;
+   font-family: 'roboto', sans-serif;
 }
 
 .div-1, .div-2, .div-3 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top center;
   width: 30%;
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #b76e79;
   line-height: 1.5em;
-  font-size: 1.1em;
-  background-color: #1a0000;
-  height: 500px;
+  font-size: 20px;
+  background-color: ;
+  height: 300px;
   padding-right: 10px;
   padding-left: 10px;
-  border: 3px dotted white;
 }
 
+.div-2 {
+   border-left: 1px dotted white;
+   border-right: 1px dotted white;
+}
 
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'sniglet', cursive;
+}
+
+.flex-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.6em;
+  background-color: #f16059;
+  width: 30%;
+  height: 200px;
+}
+
+footer {
+  width: 100%;
+   display: flex;
+   padding-top: 3.5em;
+   font-family: 'roboto', sans-serif;
+   color: #b76e79;
+   font-size: .8em;
+   border-top: 3px solid white;
+}
 
 
 /* ==========================================================================
